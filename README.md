@@ -23,7 +23,7 @@ sistema_gestion_productos/
     └── validaciones.py         # Reglas de negocio (validación de tipos y formatos)
 ```
 
-## 🛠️ Justificación Técnica
+## Justificación Técnica
 A continuación se detalla el uso de las estructuras de control y datos aplicadas en el código, cumpliendo con los requerimientos del módulo:
 
 ### 1. Estructuras de Control
@@ -44,7 +44,7 @@ A continuación se detalla el uso de las estructuras de control y datos aplicada
     * *Lógica:* La función procesa el primer elemento de la lista ("cabeza") y se llama a sí misma pasando el resto de la lista ("cola"). Esto demuestra el manejo de recursión sobre estructuras de datos sin usar bucles iterativos tradicionales (`for`/`while`).
 * **Búsqueda Parcial:** La función de búsqueda utiliza el operador de pertenencia `in`. Esto mejora la experiencia de usuario (UX), permitiendo encontrar "Notebook HP" escribiendo simplemente "hp" o "note".
 
-## 🚀 Cómo ejecutar el programa
+## Cómo ejecutar el programa
 
 ### Prerrequisitos
 * Tener instalado **Python 3.x**.
@@ -61,7 +61,7 @@ A continuación se detalla el uso de las estructuras de control y datos aplicada
     python main.py
     ```
 
-## 🧪 Datos de Prueba (Mock Data)
+## Datos de Prueba (Mock Data)
 Para facilitar la corrección y pruebas rápidas, el sistema inicia con 8 productos precargados en memoria.
 
 ### Productos incluidos:
